@@ -20,13 +20,24 @@ nav>a {
 .logo-icon {
     height: 50px;
     width: 50px;
-    background-image: url(https://i.pinimg.com/236x/82/fd/72/82fd729c50d6cdb6dc68897bc4c12897.jpg);
+    background-image: url(https://i.pinimg.com/236x/ea/aa/5f/eaaa5f39862b3a573f83b863c11a6f95.jpg);
     background-size: cover;
     background-position: center;
     border-radius: 50%;
 }
 
 .photo-banner {
-    border: 1px solid;
+    background-image: url(https://i.pinimg.com/564x/79/63/26/796326e9a75984d4115b041508f1a4fc.jpg);
+    background-position: center;
+    background-size: cover;
     height: 480px;
+}
+
+.profile-icon {
+    height: 50px;
+    width: 50px;
+    background-image: url();
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
 }
