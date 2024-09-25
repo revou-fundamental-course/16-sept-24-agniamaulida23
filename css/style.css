@@ -1,1 +1,32 @@
 /* Ini CSS*/
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+}
+
+nav>a {
+    display: flex;
+    padding: 8px;
+    color: black;
+    text-decoration: none;
+}
+
+.logo-icon {
+    height: 50px;
+    width: 50px;
+    background-image: url(https://i.pinimg.com/236x/82/fd/72/82fd729c50d6cdb6dc68897bc4c12897.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+
+.photo-banner {
+    border: 1px solid;
+    height: 480px;
+}
