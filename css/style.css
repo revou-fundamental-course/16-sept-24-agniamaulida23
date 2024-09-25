@@ -11,6 +11,7 @@ nav {
 }
 
 nav>a {
+    border: 1px solid;
     display: flex;
     padding: 8px;
     color: black;
