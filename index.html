@@ -52,18 +52,18 @@
 
             <div class="Profile-icon-container">
                 <div>
-                   <div class="logo-icon1"></div>
-                   <h5>Profile 1</h5>
+                   <div class="logo-icon"></div>
+                   <h4>Profile 1</h4>
                 </div>
 
                 <div>
-                   <div class="logo-icon2"></div>
-                   <h5>Profile 2</h5>
+                   <div class="logo-icon"></div>
+                   <h4>Profile 2</h4>
                 </div>
 
                 <div>
-                   <div class="logo-icon3"></div>
-                   <h5>Profile 3</h5>
+                   <div class="logo-icon"></div>
+                   <h4>Profile 3</h4>
                 </div>
             </div>
         </section>
@@ -84,24 +84,44 @@
             <header>
                 <h1>Message Us</h1>
             </header>
-
+            <section>
             <section class="form-container">
                 <!-- Form -->
-                <form onsubmit="return false;">
-                    <div>
-                        <label for="input name">Nama:</label>
-                        <input type="text" id="input-name" />
-                    </div>
+                <form name="Message-form" onsubmit="return validateMessage()">
+                     <h3>Nama :<input placeholder="Nama" type="text" name="full-name" /></h3>
+                     <br />
 
-                    <button type="submit" onclick="validateform()">Submit</button>
+                     <h3>Tanggal Lahir <input type="date" name="birth-date" /></h3>
+                     <br />
+
+                     <h3>Jenis Kelamin :
+                       <input type="radio" id="male" name="gender" value="male" />
+                       <label form="male">Laki-laki</label>
+                       <input type="radio" id="female" name="gender" value="female" />
+                       <label form="female">Perempuan</label></h3>
+                       
+                       <h3>pesan : <textarea placeholder="pesan" name="Message"></textarea></h3>
+                       <br />
+
+                       <input type="submit" value="submit" />
+                       <script src="js\script.js"></script>
                 </form>
 
-                <!-- Result Form -->
+            </section>
+            <!-- Result Form -->
+             <p>Result form : </p>
                 <div>
-                    <p>Result Form: <span id="result-form"></span></p>
+                    <h3>Nama : <span id="sender-full-name"></span></h3>
+                    <h3>Tanggal lahir : <span id="sender-birth-date"></span></h3>
+                    <h3>Jenis kelamin : <span id="sender-gender"></span></h3>
+                    <h3>Pesan : <span id="sender-messages"></span></h3>
                 </div>
+                <script src="./JS/script.js"></script>
             </section>
         </section>
+
+        <!--responsive-->
+
     </main>
 
     <footer>
