@@ -46,13 +46,13 @@ nav>a {
 }
 
 .photo-3 {
-    background-image: url(https://i.pinimg.com/236x/b6/6d/97/b66d97117a80553ce7c28d0919315ccc.jpg);
+    background-image: url(https://i.pinimg.com/564x/69/b2/dc/69b2dc4b582baec1096397df0719592d.jpg);
 }
 
 .profile-icon {
     height: 50px;
     width: 50px;
-    background-image: url();
+    background-image: url(https://i.pinimg.com/236x/6a/c9/20/6ac92065bd0e61806233058d470a92d7.jpg);
     background-position: center;
     background-size: cover;
     border-radius: 50%;
@@ -66,7 +66,7 @@ nav>a {
 .profile-icon-container>div {
     display: flex;
     justify-content: space-between;
-    align-items: center; 
+    align-items: center;  
 }
 
 .form-container {
