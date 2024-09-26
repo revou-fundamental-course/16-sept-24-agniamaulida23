@@ -43,7 +43,8 @@ function showSlide(index) {
     // Show Selected Image
     listimage[indexSlide - 1].style.display =  'block';
     console.log(indexSlide);
+
 }
 
-
+// Autorun Banner Photo
 setInterval(() => nextSlide(1), 2000);
