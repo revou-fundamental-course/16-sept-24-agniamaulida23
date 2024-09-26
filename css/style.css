@@ -32,10 +32,21 @@ nav>a {
 }
 
 .photo-banner {
-    background-image: url(https://i.pinimg.com/564x/79/63/26/796326e9a75984d4115b041508f1a4fc.jpg);
     background-position: center;
     background-size: cover;
     height: 480px;
+}
+
+.photo-1 {
+    background-image: url(https://i.pinimg.com/564x/79/63/26/796326e9a75984d4115b041508f1a4fc.jpg);
+}
+
+.photo-2 {
+    background-image: url(https://i.pinimg.com/474x/f1/bc/4f/f1bc4f7424d49d12c23bf7bd8bfced70.jpg);
+}
+
+.photo-3 {
+    background-image: url(https://i.pinimg.com/236x/b6/6d/97/b66d97117a80553ce7c28d0919315ccc.jpg);
 }
 
 .profile-icon {
@@ -56,4 +67,10 @@ nav>a {
     display: flex;
     justify-content: space-between;
     align-items: center; 
+}
+
+.form-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }

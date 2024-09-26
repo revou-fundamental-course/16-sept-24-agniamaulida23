@@ -36,7 +36,9 @@
                     Selamat datang di situs fashion kami </p>    
                  
                  <!-- Photo Banner -->
-                 <div class="photo-banner"></div>
+                 <div class="photo-banner  photo-1"></div>
+                 <div class="photo-banner  photo-2"></div>
+                 <div class="photo-banner  photo-3"></div>
             </article>
         </section>
 
@@ -83,19 +85,21 @@
                 <h1>Message Us</h1>
             </header>
 
-            <section>
+            <section class="form-container">
                 <!-- Form -->
-                <form>
+                <form onsubmit="return false;">
                     <div>
                         <label for="input name">Nama:</label>
                         <input type="text" id="input-name" />
                     </div>
 
-                    <button type="submit">Submit</button>
+                    <button type="submit" onclick="validateform()">Submit</button>
                 </form>
 
                 <!-- Result Form -->
-                <div></div>
+                <div>
+                    <p>Result Form: <span id="result-form"></span></p>
+                </div>
             </section>
         </section>
     </main>
