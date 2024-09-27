@@ -1,6 +1,38 @@
 //Javascript
 
+function validateForm() {
+    const nama = document.forms['nama-anda']['name-input'].value
+ 
+    if  (nama == ''){
+        document.getElementById("error-name").innerHTML = "Tidak Boleh Kosong!"
+        return false
+    }
+    setName (nama);
 
+    return false;
+ }
+
+
+function setName(name) {
+  document.getElementById("name").innerHTML = name;
+  document.getElementById('error-name').innerHTML = "";
+
+  return false;
+}
+
+function validateMessage(){
+  const name = document.forms["message-form"]["full-name"].value
+  const birthdate = document.forms["message-form"]["birth-date"].value
+  const gender = document.forms["message-form"]["gender"].value
+  const messages = document.forms["message-form"]["messages"].value
+
+  if (name  == "" || birthdate == "" || gender == "" || messages == ""){
+    alert("Tidak boleh kosong!");
+    return false;
+  }
+}
+
+replaceName();
 
 function replaceName() {
     let name = prompt('Masukkan nama anda');
